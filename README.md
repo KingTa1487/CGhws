@@ -52,7 +52,7 @@ body {
 	我的信箱 <a href="mailto:096084@jyes.ntpc.edu.tw">
 	<font color="lightblue">096084@jyes.ntpc.edu.tw</a><br>
 	<font color="blue">我的 <a href="https://kingta1487.github.io/CGhws/hw0fin.html">
-	<font color="lightblue">GitHub</a>
+	<font color="lightblue">GitHub HW0</a>
 </div>
 
 <div id="hw">
