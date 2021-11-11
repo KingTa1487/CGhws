@@ -49,18 +49,18 @@ function init () {
   camera.position.set (0,25,150);
 
   // front
-  cameraF = new THREE.OrthographicCamera (-40,40,20,-20, -40, 40);
-  cameraF.position.set (0,0,10);
+  cameraF = new THREE.OrthographicCamera (-50, 50,25,-25, -4, 40);
+  cameraF.position.set (0,0, 30);
   
   // top
-  cameraT = new THREE.OrthographicCamera (-40,40,20,-20,-40, 40);
-  cameraT.position.set (0,10,0);
+  cameraT = new THREE.OrthographicCamera (-50, 50,25,-25, -4, 40);
+  cameraT.position.set (0,30,0);
   cameraT.up.set (0,0,-1); // -Z
   cameraT.lookAt (0,0,0);
   
   //  beside
-  cameraB = new THREE.OrthographicCamera(-40,40,20,-20,-40, 40);
-  cameraB.position.set (10,0,0);
+  cameraB = new THREE.OrthographicCamera(-50, 50,25,-25, -4, 40);
+  cameraB.position.set (30,0,0);
   cameraB.lookAt (0,0,0);
   
   let light = new THREE.PointLight(0xffffff);
@@ -177,6 +177,8 @@ function init () {
   group.rotation.x = -Math.PI/2;
   group.position.z = 20;
   scene.add(group);
+  
+  renderer.autoClear = false;
     
 }
 
@@ -191,8 +193,10 @@ var ww = window.innerWidth;
 var hh = window.innerHeight;
 
 function render() {
+	renderer.clear();
+	
 	if (frontView === true){
-  	renderer.clear();
+
   	renderer.setViewport (0,0, ww/2, hh/2);
   	renderer.render(scene, cameraF);
   
@@ -203,7 +207,7 @@ function render() {
     renderer.render(scene, cameraB);
   }
   else{
-  	renderer.clear();
+  	
     renderer.setViewport(0, 0, ww, hh);
   	renderer.render(scene, camera);
   }
