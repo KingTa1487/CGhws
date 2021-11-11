@@ -50,17 +50,17 @@ function init () {
 
   // front
   cameraF = new THREE.OrthographicCamera (-50, 50,25,-25, -4, 40);
-  cameraF.position.set (0,0, 30);
+  cameraF.position.set (0,0,40);
   
   // top
   cameraT = new THREE.OrthographicCamera (-50, 50,25,-25, -4, 40);
-  cameraT.position.set (0,30,0);
+  cameraT.position.set (0,40,0);
   cameraT.up.set (0,0,-1); // -Z
   cameraT.lookAt (0,0,0);
   
   //  beside
   cameraB = new THREE.OrthographicCamera(-50, 50,25,-25, -4, 40);
-  cameraB.position.set (30,0,0);
+  cameraB.position.set (40,0,0);
   cameraB.lookAt (0,0,0);
   
   let light = new THREE.PointLight(0xffffff);
