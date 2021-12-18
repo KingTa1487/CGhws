@@ -17,7 +17,7 @@
 
 
 [096084@jyes.ntpc.edu.tW]:<mailto:096084@jyes.ntpc.edu.tw>
-[GitHub]:<index.html>
+[GitHub]:<https://kingta1487.github.io/CGhws/index.html>
 [       HW0]:<hw0.html>
 [       HW1]:<HW1/HW1.html>
 [       HW2]:<HW2/drive.html>
