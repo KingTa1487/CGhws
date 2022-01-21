@@ -73,7 +73,7 @@ function doPointerDown(event){
 	}
 }
 
-function lightOn(){
+/*function lightOn(){
 	candle[j-1].light.visible = true;
 	candle[j-1].flameMesh.material.visible = true;
 }
@@ -82,7 +82,7 @@ function onWindowResize() {
 	camera.aspect = window.innerWidth / window.innerHeight;
 	camera.updateProjectionMatrix();
 	renderer.setSize(window.innerWidth, window.innerHeight);
-}
+}*/
 
 
 /*function textureAnimate() {
