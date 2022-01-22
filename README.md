@@ -25,8 +25,8 @@
 [       HW2]:<HW2/drive.html>
 [       HW3]:<HW3/HW3.html>
 [       HW4]:<HW4/HW4.html>
-[       HW5]:<HW5/HW5one.html>
-[       HW5]:<HW5/HW5two.html>
+[       HW5-1]:<HW5/HW5one.html>
+[       HW5-2]:<HW5/HW5two.html>
 </body>
 
 </html>
