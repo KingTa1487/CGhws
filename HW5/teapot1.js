@@ -61,7 +61,7 @@ function init() {
 	for(let i=0; i<10; i++){
 		for(let j=0; j<10; j++){
 			let mesh = new THREE.Mesh(geometry, meshMaterial);
-			mesh.position.set(-90+i*20, 10, -90+j*20);
+			mesh.position.set(-90+i*20, 5, -90+j*20);
 			teapots.push(mesh);
 			scene.add(mesh);
 		}
